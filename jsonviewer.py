@@ -1,11 +1,3 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 20 19:44:44 2018
-
-@author: yinghong
-"""
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -16,7 +8,6 @@ import os
 
 
 
-fname = "/Users/yinghong/Downloads/ord.val.json"
 roottype = [int, float, complex, long, str, unicode]
 treetype = [tuple, list]
 
@@ -54,5 +45,3 @@ def read_json(fname):
 def view_json(fname):
     data = read_json(fname)
     inner_view_json(data, 0)
-
-view_json(fname)

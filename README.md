@@ -2,12 +2,12 @@
 print meta json structure
 
 ## Install
-```
+```bash
 pip install jsonviewer
 ```
 
 ## Usage
-```
+```python
 from jsonviewer import view_json
 
 fname = "foo.json"

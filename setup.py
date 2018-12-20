@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="jsonviewer",
-    version="0.1.3",
+    version="0.1.4",
     author="fangyh09",
     author_email="fangyh09@gmail.com",
     description="display json meta structure",

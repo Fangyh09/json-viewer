@@ -8,7 +8,7 @@ import os
 
 
 
-roottype = [int, float, complex, long, str, unicode]
+roottype = [int, bool, float, complex, str]
 treetype = [tuple, list]
 
 
@@ -42,6 +42,6 @@ def read_json(fname):
         data = json.load(f)
     return data
 
-def view_json(data):
-    # data = read_json(fname)
+def view_json(fname):
+    data = read_json(fname)
     inner_view_json(data, 0)

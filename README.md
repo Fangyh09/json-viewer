@@ -3,7 +3,7 @@ print meta json structure
 
 ## Install
 ```bash
-pip install jsonviewer
+python setup.py install
 ```
 
 ## Usage
